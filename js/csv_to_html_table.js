@@ -11,8 +11,6 @@ CsvToHtmlTable = {
         var custom_formatting = options.custom_formatting || [];
         var customTemplates = {};
 
-        $.ajaxSetup({ cache: false });
-        
         $.each(custom_formatting, function (i, v) {
             var colIdx = v[0];
             var func = v[1];
@@ -23,7 +21,7 @@ CsvToHtmlTable = {
         var $containerElement = $("#" + el);
         $containerElement.empty().append($table);
 
-        $.when($.get(csv_path)).then(
+        $.when($.get(csv_path  + '?_=' + new Date().getTime())).then(
             function (data) {
                 var csvData = $.csv.toArrays(data, csv_options);
                 var $tableHead = $("<thead></thead>");
