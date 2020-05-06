@@ -1,35 +1,64 @@
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <style>
-        table {
-            border-collapse: collapse;
-            border: 2px black solid;
-            font: 12px sans-serif;
-        }
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Chelsea's Army</title>
+    <meta name="author" content="Derek Eder">
+    <meta content="Display any CSV file as a searchable, filterable, pretty HTML table" />
 
-        td {
-            border: 1px black solid;
-            padding: 5px;
-        }
-    </style>
-</head>
-<body>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dataTables.bootstrap.css" rel="stylesheet">
 
-<iframe title="Chelsea's Army" aria-label="Map" id="datawrapper-chart-Oba1A" src="https://datawrapper.dwcdn.net/Oba1A/9/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe>
-<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-</script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-<div id='table-container'></div>
+  <body>
 
-<script>
-  CsvToHtmlTable.init({
-    csv_path: 'countries-states.csv',
-    element: 'table-container',
-    allow_download: true,
-    csv_options: {separator: ';', delimiter: '"'},
-    datatables_options: {"paging": false}
-  });
-</script>
-</body>
+    <iframe title="Chelsea's Army" aria-label="Map" id="datawrapper-chart-Oba1A" src="https://datawrapper.dwcdn.net/Oba1A/9/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe>
+    <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+    </script>
+
+    <div class="container-fluid">
+
+      <div id='table-container'></div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.csv.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="js/dataTables.bootstrap.js"></script>
+    <script type="text/javascript" src="js/csv_to_html_table.js"></script>
+
+
+    <script type="text/javascript">
+      // function format_link(link){
+      //   if (link)
+      //     return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+      //   else
+      //     return "";
+      // }
+
+        CsvToHtmlTable.init({
+          csv_path: 'countries-states.csv',
+          element: 'table-container',
+          allow_download: true,
+          csv_options: {separator: ',', delimiter: '\n'},
+          datatables_options: {"paging": false}
+        });
+    </script>
+  </body>
 </html>
