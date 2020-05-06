@@ -10,6 +10,9 @@ CsvToHtmlTable = {
         var datatables_options = options.datatables_options || {};
         var custom_formatting = options.custom_formatting || [];
         var customTemplates = {};
+
+        $.ajaxSetup({ cache: false });
+        
         $.each(custom_formatting, function (i, v) {
             var colIdx = v[0];
             var func = v[1];
