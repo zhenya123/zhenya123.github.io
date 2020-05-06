@@ -16,28 +16,20 @@
 </head>
 <body>
 
-<iframe title="Chelsea's Army" aria-label="Map" id="datawrapper-chart-Oba1A" src="https://datawrapper.dwcdn.net/Oba1A/9/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+<iframe title="Chelsea's Army" aria-label="Map" id="datawrapper-chart-Oba1A" src="https://datawrapper.dwcdn.net/Oba1A/9/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe>
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
 
-<!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
-<script src="d3.min.js?v=3.2.8"></script>
+<div id='table-container'></div>
 
-<script type="text/javascript"charset="utf-8">
-    d3.text("countries-states.csv", function(data) {
-        var parsedCSV = d3.csv.parseRows(data);
-
-        var container = d3.select("body")
-            .append("table")
-
-            .selectAll("tr")
-                .data(parsedCSV).enter()
-                .append("tr")
-
-            .selectAll("td")
-                .data(function(d) { return d; }).enter()
-                .append("td")
-                .text(function(d) { return d; });
-    });
+<script>
+  CsvToHtmlTable.init({
+    csv_path: 'countries-states.csv',
+    element: 'table-container',
+    allow_download: true,
+    csv_options: {separator: ';', delimiter: '"'},
+    datatables_options: {"paging": false}
+  });
 </script>
 </body>
 </html>
