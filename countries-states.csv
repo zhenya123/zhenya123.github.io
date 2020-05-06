@@ -1,134 +1,133 @@
-Column 1,Column 2,Column 1,Column 2
-Birmingham,Alabama,Birmingham, Alabama
-Phoenix,Arizona,Phoenix, Arizona
-Little Rock,Arkansas,Brisbane, Australia
-Sydney,Australia,Brisbane, Australia
-Brisbane,Australia,Sydney, Australia
-Dhaka,Bangladesh,Dhaka, Bangladesh
-Minsk,Belarus,Dziatlava, Belarus
-Dziatlava,Belarus,Minsk, Belarus
-Santa Cruz de la Sierra,Bolivia,Santa Cruz de la Sierra, Bolivia
-Sarajevo,Bosnia and Herzegovina,Sarajevo, Bosnia and Herzegovina
-Rio de Jeneiro,Brazil,Rio de Jeneiro, Brazil
-Los Angeles,California,Los Angeles, CA
-Phnom Penh,Cambodia,Phnom Penh, Cambodia
-Toronto,Canada,Toronto, Canada
-Ottawa,Canada,Ottawa, Canada
-Santiago,Chile,Santiago, Chile
-Beijing,China,Beijing, China
-Hong Kong,China,Hong Kong,China
-Bogota,Colombia,Denver, CO
-Denver,Colorado,Bogota, Columbia
-Bridgeport,Connecticut,Zagrep, Croatia
-Zagrep,Croatia,Bridgeport, CT
-Prague,Czechia,Prague, Czechia
-Wilmington,Delaware,Washington, DC
-Copenhagen,Denmark,Copenhagen, Denmark
-Washington,District of Colombia,Santo Domingo, Dominican Republic
-Santo Domingo,Dominican Republic,Wilmington, DW
-Cairo,Egypt,Cairo, Egypt
-Miami,Florida,Miami, FL
-Paris,France,Paris, France
-Tbilisi,Georgia,Atlanta, GA
-Atlanta,Georgia,Tbilisi, Georgia
-Berlin,Germany,Berlin, Germany
-Bremen,Germany,Bremen, Germany
-Honolulu,Hawaii,Honolulu, HI
-Tegucigalpa,Honduras,Tegucigalpa, Honduras
-Budapest,Hungary,Budapest, Hungary
-Boise,Idaho,Boise, Idaho
-Chicago,Illinois,Chicago, IL
-Hyderabad,India,Hyderabad, India
-Dehli,India,Dehli, India
-Indianapolis,Indiana,Indianapolis, Indiana
-Des Moines,Iowa,,
-Bagdad,Iraq,Bagdad, Iraq
-Jerusalem,Israel,Jerusalem, Israel
-Kingston,Jamaica,Kingston, Jamaica
-Tokyo,Japan,Tokyo, Japan
-Amman,Jordan,Amman, Jordan
-Wichita,Kansas,Nairobi, Kenya
-Louisville,Kentucky,Wichita, KS
-Nairobi,Kenya,Kuwait city, Kuwait
-Kuwait city,Kuwait,Louisville, KY
-Vientiane,Laos,Vientiane, Laos
-Riga,Latvia,Riga, Latvia
-Beirut,Lebanon,Beirut, Lebanon
-New Orleans,Louisiana,New Orleans,LA
-Kuala Lumpur,Malaysia,Boston, MA
-Baltimore,Maryland,Kuala Lumpur, Malaysia
-Boston,Massachussetts,Baltimore, MD
-Mexico City,Mexico,Mexico City, Mexico
-Detroit,Michigan,Detroit, MI
-Grand Rapids,Michigan,Grand Rapids, MI
-Minneapolis,Minnesota,,
-Gulfport,Mississippi,Gulfport, Mississippi
-Kansas City,Missouri,Kansas City, MO
-Casablanca,Morocco,Casablanca, Morocco
-Maputo,Mozambique,Maputo, Mozambique
-Kathmandu,Nepal,Charlotte, NC
-Amsterdam,Netherlands,Fargo, ND
-Las Vegas,Nevada,Kathmandu, Nepal
-Concord,New Hampshire,Amsterdam, Netherlands
-Newark,New Jersey,Albuquerque, New Mexico
-Albuquerque,New Mexico,Wellington, New Zealand
-Fairport,New York,Concord, NH
-Canandaigua,New York,Managua, Nicaragua
-Orchard Park,New York,Newark, NJ
-Amherst,New York,Oslo, Norway
-New York,New York,Las Vegas, NV
-Long Island,New York,Buffalo, NY
-Houghton,New York,Orchard Park, NY
-Rochester,New York,Amherst, NY
-Buffalo,New York,New York, NY
-Wellington,New Zealand,Long Island, NY
-Managua,Nicaragua,Canandaigua, NY
-Charlotte,North Carolina,Rochester, NY
-Fargo,North Dakota,Fairport, NY
-Oslo,Norway,Houghton, NY
-Cleveland,Ohio,Cleveland, OH
-Oklahoma City,Oklahoma,Oklahoma city, OK
-Portland,Oregon,Portland, OR
-Asunciï¿½n,Paraguay,,
-Pittsburgh,Pennsylvania,Pittsburgh, PA
-Hummelstown,Pennsylvania,Hummelstown, PA
-Manila,Phillippines,Manila, Philippines
-Warsaw,Poland,Warsaw, Poland
-Lissabon,Portugal,Lissabon, Portugal
-San Juan,Puerto Rico,San Juan, Puerto Rico
-Providence,Rhode Island,Providence, RI
-Bucharest,Romania,Bucharest, Romania
-Moscow,Russia,Moscow, Russia
-Ust-Ulimsk,Russia,Ust-Ulimsk, Russia
-Dakar,Senegal,Charleston, SC
-Belgrade,Serbia,Dakar, Senegal
-Cape Town,South Africa,Belgrade, Serbia
-Charleston,South Carolina,Cape Town, South Africa
-Seoul,South Korea,Seoul, South Korea
-Juba,South Sudan,Juba, South Sudan
-Malaga,Spain,Malaga, Spain
-Madrid,Spain,,
-Eswatini,Swaziland,,
-Bern,Switzerland,Bern, Switzerland
-Taipei,Taiwan,Taipei, Taiwan
-Nashville,Tennesee,Bangkok, Thailand
-Dallas,Texas,Nashville, TN
-Bangkok,Thailand,Port of Spain, Trinidad and Tobago
-Port of Spain,Trinidad and Tobago,Ankara, Turkey
-Ankara,Turkey,Dallas, TX
-Dubai,UAE,Dubai, UAE
-Kampala,Uganda,Kampala, Uganda
-Kiev,Ukraine,Kiev, Ukraine
-London,United Kingdom,London,United Kingdom
-Washington,United States,,
-Montevideo,Uruguay,,
-Charlotte Amalie,US Virgin Islands,Charlotte Amalie, US Virgin Islands
-Salt Lake City,Utah,,
-Burlington,Vermont,Burlington, VT
-Richmond,Virginia,Richmond, VA
-Seattle,Washington,Seattle, WA
-Charleston,West Virginia,,
-Milwaukee,Wisconsin,,
-Cheyenne,Wyoming,,
-Sana'a,Yemen,Milwaukee, WI
-Harare,Zimbabwe,Harare, Zimbabwe
+Column 1,Column 2
+Birmingham,Alabama
+Phoenix,Arizona
+Little Rock,Arkansas
+Sydney,Australia
+Brisbane,Australia
+Dhaka,Bangladesh
+Minsk,Belarus
+Dziatlava,Belarus
+Santa Cruz de la Sierra,Bolivia
+Sarajevo,Bosnia and Herzegovina
+Rio de Jeneiro,Brazil
+Los Angeles,California
+Phnom Penh,Cambodia
+Toronto,Canada
+Ottawa,Canada
+Santiago,Chile
+Beijing,China
+Hong Kong,China
+Bogota,Colombia
+Denver,Colorado
+Bridgeport,Connecticut
+Zagrep,Croatia
+Prague,Czechia
+Wilmington,Delaware
+Copenhagen,Denmark
+Washington,District of Colombia
+Santo Domingo,Dominican Republic
+Cairo,Egypt
+Miami,Florida
+Paris,France
+Tbilisi,Georgia
+Atlanta,Georgia
+Berlin,Germany
+Bremen,Germany
+Honolulu,Hawaii
+Tegucigalpa,Honduras
+Budapest,Hungary
+Boise,Idaho
+Chicago,Illinois
+Hyderabad,India
+Dehli,India
+Indianapolis,Indiana
+Des Moines,Iowa
+Bagdad,Iraq
+Jerusalem,Israel
+Kingston,Jamaica
+Tokyo,Japan
+Amman,Jordan
+Wichita,Kansas
+Louisville,Kentucky
+Nairobi,Kenya
+Kuwait city,Kuwait
+Vientiane,Laos
+Riga,Latvia
+Beirut,Lebanon
+New Orleans,Louisiana
+Kuala Lumpur,Malaysia
+Baltimore,Maryland
+Boston,Massachussetts
+Mexico City,Mexico
+Detroit,Michigan
+Grand Rapids,Michigan
+Minneapolis,Minnesota
+Gulfport,Mississippi
+Kansas City,Missouri
+Casablanca,Morocco
+Maputo,Mozambique
+Kathmandu,Nepal
+Amsterdam,Netherlands
+Las Vegas,Nevada
+Concord,New Hampshire
+Newark,New Jersey
+Albuquerque,New Mexico
+Fairport,New York
+Canandaigua,New York
+Orchard Park,New York
+Amherst,New York
+New York,New York
+Long Island,New York
+Houghton,New York
+Rochester,New York
+Buffalo,New York
+Wellington,New Zealand
+Managua,Nicaragua
+Charlotte,North Carolina
+Fargo,North Dakota
+Oslo,Norway
+Cleveland,Ohio
+Oklahoma City,Oklahoma
+Portland,Oregon
+Asunci—n,Paraguay
+Pittsburgh,Pennsylvania
+Hummelstown,Pennsylvania
+Manila,Phillippines
+Warsaw,Poland
+Lissabon,Portugal
+San Juan,Puerto Rico
+Providence,Rhode Island
+Bucharest,Romania
+Moscow,Russia
+Ust-Ulimsk,Russia
+Dakar,Senegal
+Belgrade,Serbia
+Cape Town,South Africa
+Charleston,South Carolina
+Seoul,South Korea
+Juba,South Sudan
+Malaga,Spain
+Madrid,Spain
+Eswatini,Swaziland
+Bern,Switzerland
+Taipei,Taiwan
+Nashville,Tennesee
+Dallas,Texas
+Bangkok,Thailand
+Port of Spain,Trinidad and Tobago
+Ankara,Turkey
+Dubai,UAE
+Kampala,Uganda
+Kiev,Ukraine
+London,United Kingdom
+Montevideo,Uruguay
+Charlotte Amalie,US Virgin Islands
+Salt Lake City,Utah
+Burlington,Vermont
+Richmond,Virginia
+Seattle,Washington
+Charleston,West Virginia
+Milwaukee,Wisconsin
+Cheyenne,Wyoming
+Sana'a,Yemen
+Harare,Zimbabwe
