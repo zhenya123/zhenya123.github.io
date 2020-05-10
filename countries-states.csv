@@ -1,4 +1,4 @@
-City,Country/State
+Column 1,Column 2
 Birmingham,Alabama
 Phoenix,Arizona
 Little Rock,Arkansas
@@ -20,7 +20,7 @@ Hong Kong,China
 Bogota,Colombia
 Denver,Colorado
 Bridgeport,Connecticut
-Zagreb,Croatia
+Zagrep,Croatia
 Prague,Czechia
 Wilmington,Delaware
 Copenhagen,Denmark
@@ -89,7 +89,7 @@ Oslo,Norway
 Cleveland,Ohio
 Oklahoma City,Oklahoma
 Portland,Oregon
-Asuncion,Paraguay
+Asunci—n,Paraguay
 Pittsburgh,Pennsylvania
 Hummelstown,Pennsylvania
 Manila,Phillippines
@@ -111,7 +111,7 @@ Madrid,Spain
 Eswatini,Swaziland
 Bern,Switzerland
 Taipei,Taiwan
-Nashville,Tennessee
+Nashville,Tennesee
 Dallas,Texas
 Bangkok,Thailand
 Port of Spain,Trinidad and Tobago
@@ -131,83 +131,3 @@ Milwaukee,Wisconsin
 Cheyenne,Wyoming
 Sana'a,Yemen
 Harare,Zimbabwe
-Ellicottville,New York
-Grenada,Mississippi
-Memphis,Tennessee
-Jackson,Tennessee
-Chattanooga,Tennessee
-Knoxville,Tennessee
-Columbus,Ohio
-Fort Worth,Texas
-Lackawanda,New York
-Strykersville,New York
-Manhattan,New York
-Colorado Springs,Colorado
-Eschbach,Germany
-Casper,Wyoming
-St Louis,Missouri
-Palos Heights,Illinois
-Anderson,South Carolina
-Wellington,Florida
-Alexandria,Virginia
-Fairfax,Virginia
-Syracuse,New York
-Plymouth,Massachussetts
-Manchester,United Kingdom
-Kampala,Uganda
-Jacksonville,Florida
-Rushford,New York
-Saint Petersburg,Russia
-Juan Polio,Dominican Republic
-San Pedro,Dominican Republic
-San Pedrosula,Honduras
-Gypsum,Colorado
-Edwards,Colorado
-Fort Collins,Colorado
-Binghamton,New York
-Erie,Pennsylvania
-York,Pennsylvania
-Lancaster,Pennsylvania
-Dunkirk,New York
-Great Valley,New York
-Warsaw,New York
-Rock Hill,South Carolina
-Kingston,Ontario
-Philadelphia,Pennsylvania
-Belfast,New York
-Olean,New York
-Sayre,Pennsylvania
-Angola,New York
-Blasdell,New York
-Fredonia,New York
-Forestville,New York
-Jamestown,New York
-Perrysburg,New York
-South Dayton,New York
-Angelica,New York
-Montreal,Quebec
-Kinshasa,Congo
-Clayton,North Carolina
-Richlands,North Carolina
-Healy,Alaska
-Victoria,British Columbia
-Anchorage,Alaska
-Greensboro,North Carolina
-Portland,Maine
-Madison,Wisconsin
-Linwood,New York
-Orchard Park,New York
-Highland,California
-Baranavichy,Belarus
-Taylor,British Columbia
-Zurich,Switzerland
-Dover,Tennessee
-Port Elizabeth,South Africa
-Hordville,Nebraska
-Lake View,New York
-Monterey,California
-Saratoga Springs,New York
-Moroni,Comoros islands
-Quito,Ecuador
-Polson,Montana
-Brookings,South Dakota
